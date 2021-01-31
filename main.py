@@ -4,15 +4,10 @@ from RPLCD import CharLCD
 GPIO.setmode(GPIO.BOARD)
 
 
-def initializeLCD():
-    screen = CharLCD(cols=12, rows=2, pin_rs=37, pin_e=35, pins_data=[33, 31, 29, 23], numbering_mode=GPIO.BOARD)
-    return screen
+lcd = CharLCD(cols=12, rows=2, pin_rs=37, pin_e=35, pins_data=[33, 31, 29, 23], numbering_mode=GPIO.BOARD)
 
 
-def writeToLCD(text):
+def writeToLCD(lcd, text):
     lcd.write_string(text)
 
-
-lcd = initializeLCD()
-
-writeToLCD('Labas Julija')
+writeToLCD(lcd ,'Labas Julija')

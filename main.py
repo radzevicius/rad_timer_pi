@@ -11,4 +11,4 @@ def writeToLCD(text):
     lcd.write_string(text)
 
 
-writeToLCD('External variable')
+writeToLCD(' o_ ....     _o /\\ GAMING   /\\')

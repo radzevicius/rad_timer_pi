@@ -29,8 +29,8 @@ def writeToLCD(text):
 def animator(animation, fps):
     sleep_time = 1 / fps
     for i in animation:
-        time.sleep(sleep_time)
         writeToLCD(i)
+        time.sleep(sleep_time)
     writeToLCD('')
 
 

@@ -30,7 +30,7 @@ def animator(animation, fps):
     sleep_time = 1 / fps
     for i in animation:
         time.sleep(sleep_time)
-        writeToLCD(animation[i])
+        writeToLCD(i)
     writeToLCD('')
 
 

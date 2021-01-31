@@ -15,10 +15,10 @@ gaming_animation = [' o_          _o /\x00   GAMING   /\x00',
                     ' o_      .   _o /\x00   GAMING   /\x00',
                     ' o_        . _o /\x00   GAMING   /\x00',
                     ' o_          _* /\x00   GAMING   /\x00',
-                    ' o_  .       _\\ /\x00   GAMING   /\x00',
-                    '\x00o/             /\x00    YEAH   >->o',
-                    '\x00o/             /\x00    YEAH!  >->o',
-                    '\x00o/             /\x00   !YEAH!  >->o']
+                    ' o_          _\\ /\x00   GAMING   /\x00',
+                    '\x00o/             /\x00    YEAH  >->o',
+                    '\x00o/             /\x00    YEAH! >->o',
+                    '\x00o/             /\x00   !YEAH! >->o']
 
 
 def writeToLCD(text):
